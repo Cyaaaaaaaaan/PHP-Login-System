@@ -31,7 +31,7 @@
               <div class="uk-margin">
                   <label class="uk-form-label" for="form-stacked-text">Username/Email</label>
                   <div class="uk-form-controls">
-                      <input class="uk-input" id="form-stacked-text" type="text" required='required' placeholder="Username or Email">
+                      <input class="uk-input" id="form-stacked-text" type="email" required='required' placeholder="Username or Email">
                   </div>
               </div>
 
@@ -42,13 +42,14 @@
                   </div>
               </div>
 
-              <div class="uk-margin">
+              <!-- <div class="uk-margin">
                   <label class="uk-form-label" for="form-stacked-text">Re-enter Your Password</label>
                   <div class="uk-form-controls">
                       <input class="uk-input" id="form-stacked-text3" type="password" required='required' placeholder="">
                   </div>
-              </div>
+              </div> -->
 
+              <div class="uk-margin uk-alert uk-alert-danger js-error" style='display: none;'></div>
 
               <div class="uk-margin">
                   <button class="uk-botton uk-button-default" type="submit">SIGN UP</button>
